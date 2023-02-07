@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en"> 
   <head>
-         
+      <title>AppDeGatos</title> 
+      <link href="style.css" rel="stylesheet ">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+  
   </head>
 
   <body>
@@ -26,9 +34,9 @@
 
       
 
-
+  <div id="parrafo1">
       <!--Parrafo 1-->
-      <h3 id="parrafo-gato">Parrafo 1</h3>
+      <h3 id="titulo-app-gatos">Parrafo 1</h3>
 
       <p>The cat
       The cat's name is applied by extension 
@@ -40,8 +48,10 @@
 
       <hr>
 
+  </div>
+
       <!--Parrafo 2-->
-      <h3 id="parrafo2">Parrafo 2</h3>
+      <h3>Parrafo 2</h3>
 
       <p>Todos cats are hard coated tongue, pointed buds,
       it seems that the domestic cat is derived from
@@ -54,7 +64,7 @@
 
       <!--Parrafo 3-->
 <hr> 
-      <h3 id="parrafo3">Parrafo 3</h3>
+      <h3 id="titulo-app-gatos">Parrafo 3</h3>
 
       <p><strong>El GATO</strong> es un animal pequeño.
          Es vertebrado porque tiene huesos y principalmente
@@ -62,22 +72,27 @@
          Es un animal mamífero porque nace vivo de la madre y mama para alimentarse.
          Tiene el cuerpo cubierto de pelo, tiene cuatro patas y rabo.</p>
 
-        <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gatito narajanja" width="200px"></a>
+      <a href="https://bit.ly/fcc-relaxing-cat" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" class="imagen-gatos"alt="Un lindo gatito narajanja" width="200px"></a>
 
-        <p>Cosas que los gatos odian</p>
-      <ol>
-        <li><s>Tratamientos antipulgas</s></li>
-        <li>Truenos</li>
-        <li>Otros gatos</li>
-      </ol>
-
+    <div class="cosas-gatos">  
+      <p>Cosas que los gatos odian</p>
+        <ol>
+          <li><s>Tratamientos antipulgas</s></li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+     </div>
+    
+     <div class="contenedor-imagen">
          <img src="../html-css/imagenes/gatos-dominan-el-mundo-gráficos-vectoriales-en-blanco-y-negro-frases-inglés-ilustraciones-de-la-frase-del-diseño-las-garras-177280717.jpg" alt="Mensaje gato" width="200px">
+     </div>
 
+    <div class="informacion-gatos"
          <form action="/enviar-respuesta"> 
            <!--Casillas de verificacion-->
-           <label for="Carinoso"><input id="Carinoso" type="checkbox" name="personalidad">Cariñoso.</label>
-           <label for="Perezoso"><input id="Perezoso" type="checkbox" name="personalidad">Perezoso.</label>
-           <label for="Energico"><input id ="Energico" type="checkbox" name="personalidad">Energico.</label> <br>
+           <label for="Carinoso"><input id="Carinoso" type="checkbox" value="Carinoso" name="personalidad">Cariñoso.</label>
+           <label for="Perezoso"><input id="Perezoso" type="checkbox" value="Perezoso" name="personalidad">Perezoso.</label>
+           <label for="Energico"><input id ="Energico" type="checkbox" valre="Energico" name="personalidad">Energico.</label> <br>
 
           <!--Botones de texto-->
            <input type="text" placeholder="Email@" required> <br>
@@ -85,15 +100,27 @@
           
 
            <!--Botones de radio-->
-           <label><input type="radio" name="Interior-exterior">Interior </label> <br>
-           <label><input type="radio" name="Interior-exterior">Exterior</label> <br>
+           <label><input type="radio" value="interior" name="Interior-exterior">Interior </label> <br>
+           <label><input type="radio" value="exterior" name="Interior-exterior">Exterior</label> <br>
           
            <!--Boton de siguiente-->
            <button type="submit">Siguiente</button>
            
          </form>
-  
+        </div>
+
+        <div id="contenedor-principal">
+          <div class="rectangulo a1">200px de ancho</div>
+          <div class="rectangulo b2">20vw de ancho</div>
+          <div class="rectangulo c3">15em de ancho</div>
+        </div>
     </main>
+
+    <footer>
+      <p><small>Sin derechos de autor - <a href="https://www.freecodecamp.org/ " target="_blank">freeCodeCamp.org</a></small></p>
+    </footer>
   </body>
  
+
+  
 </html>

@@ -1,0 +1,19 @@
+/*.primer-clase{
+    color: blue;
+}
+
+.segunda-clase{
+    color: blueviolet;
+}*/
+
+
+/*En este caso la clase tiene precedencia sobre el selector mas generico, encambio la otra es mas especifica, asi que es priorizada.*/
+/*.sin-subrayado{
+
+    text-decoration: none;
+
+}
+
+a{
+  text-decoration: purple wavy underline;
+}*/

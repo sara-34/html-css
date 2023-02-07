@@ -1,0 +1,143 @@
+/*h2 {
+  color: black;
+  font-size: 50px;
+  font-family: 'Sassy Frass', cursive;
+  margin-top: 5px;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+.imagen-gatos{
+  width: 100px;
+  border-width: 5px;
+  border-color: rgba(137, 43, 226, 0.901);
+  border-style: solid dotted double dashed;
+  border-radius: 50%;
+}
+
+.cosas-gatos {
+   background-color: silver;
+}
+
+#titulo-app-gatos{
+  font-size: 20px;
+  color: palevioletred;
+  background-color: bisque;
+  border-radius: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.informacion-gatos{
+  font-size: 20px;
+  color: black;
+  background-color: blanchedalmond;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+ 
+#parrafo1{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: blueviolet;
+}*/
+
+/*.contenedor-imagen{
+  background-color: blueviolet;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  
+
+}
+
+img{
+  padding: 25px;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 30px;
+  padding-bottom: 25px;
+  background-color: yellowgreen;
+  border-width: 4px;
+  border-color: black;
+  border-style: solid;
+  margin: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-bottom: 5px;
+} */
+
+
+/*Selectores de atributos*/
+/*
+img[alt]{
+  
+  border-radius: 50%;
+
+}
+ 
+[type="checkbox"]{
+  margin: 10px;
+}
+
+[type="radio"]{
+  margin: 10px;
+}
+
+[type="text"]{
+  margin: 10px;
+}
+
+[type="submit"]{
+  margin: 10px;
+}
+
+a[href="https://www.freecodecamp.org/ "]{
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+   
+}*/
+
+
+/*Unidades longitud absoluta*/
+
+/*#contenedor-principal{
+  color: beige;
+  padding: 5px;
+  font-size: 10px;
+  background-color: blueviolet;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rectangulo {
+  padding: 5px;
+  margin: 5px;
+}
+.a1{
+
+  background-color: crimson;
+  width: 200px;
+}
+
+.b2{
+  background-color: darkmagenta;
+  width: 20vw;
+}
+
+.c3{
+  background-color: cadetblue;
+  width: 15em;
+}*/
+
+body{
+  background-color: gainsboro;
+}
+
+
+
+
+
