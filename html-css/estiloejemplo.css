@@ -17,3 +17,23 @@
 a{
   text-decoration: purple wavy underline;
 }*/
+
+/*Gana id porque es mas especifico que class y por eso tiene prioridad*/
+
+/*#titulo{
+    color: blueviolet !important;
+}
+
+.titulo-hola{
+    color: yellow;
+}*/
+
+/* Hexadecimal code */
+
+/* # 00   00    00
+    rojo verde azul
+
+*/
+
+
+

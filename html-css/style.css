@@ -134,10 +134,27 @@ a[href="https://www.freecodecamp.org/ "]{
 }*/
 
 body{
-  background-color: gainsboro;
+  background-color: gainsboro ;
 }
 
 
+
+h2{
+  color: #ff0;
+
+}
+
+h3{
+  background-color: rgb(0, 255, 255);
+}
+
+/*Creacion de variables css:
+--pinguino-barriga: gray;
+*/
+
+/*Valor de respaldo
+background: var(--variable, respaldo(color));
+*/
 
 
 
